@@ -1,0 +1,110 @@
+/* buttons*/
+
+#custom-btn span span {
+    height: 100px !important;
+    line-height: 1px;
+}
+.ui-btn {
+    font-size: 10px;
+    margin: .5em 0;
+    padding: .7em 1em;
+}
+#left-button {
+    width: 50%;
+    float: right;
+}
+#right-button {
+    width: 50%;
+    float: left;
+}
+#buttons {
+    margin: 0 auto;
+    display: block;
+    padding: 1em
+}
+#buttonpink {
+    background-color: #ff6091;
+    width: 90px !important;
+    height: 90px !important;
+    border-radius: 50% !important;
+    padding-bottom: 1em !important;
+    margin: auto !important;
+    float: left!important;
+    font-size: smaller;
+}
+#buttonpink2 {
+    background-color: palegreen;
+    width: 90px !important;
+    height: 90px !important;
+    border-radius: 50% !important;
+    padding-bottom: 1em;
+    margin: 0 auto;
+    margin-top: 3em;
+    font-size: smaller;
+}
+#buttonblue {
+    background-color: #29b6f6;
+    width: 90px !important;
+    height: 90px !important;
+    border-radius: 50% !important;
+    padding-bottom: 1em;
+    margin: auto;
+    float: right;
+    font-size: smaller;
+}
+#buttongreen {
+    background-color: #9ccc65;
+    width: 90px !important;
+    height: 90px !important;
+    border-radius: 50% !important;
+    padding-top: 1em;
+    margin: auto;
+    margin-top: 1em;
+    float: left;
+    font-size: smaller;
+}
+#buttonorange {
+    background-color: #ffa726;
+    width: 90px !important;
+    height: 90px !important;
+    border-radius: 50% !important;
+    padding-top: 1em;
+    margin: auto;
+    margin-top: 1em;
+    float: right;
+    clear: both;
+    font-size: smaller;
+}
+
+/*logo*/
+
+.logo {
+    padding-bottom: 1em;
+    margin: 0 auto;
+    display: block;
+    clear: both;
+}
+
+/* login form*/
+
+#loginid {
+    margin: 0 auto;
+    display: block;
+    padding-left: 2em;
+}
+.login {
+    margin: 0 auto;
+    display: block;
+    clear: both;
+    width: 20%;
+}
+div.text{
+    color: black;
+}
+div#information{
+    background-color: pink;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 8%;
+}
+/* footer*/

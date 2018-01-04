@@ -1,0 +1,55 @@
+<!-- Student 13016874 acebri01 Mobile Application Development TMA
+External page for Zedland Pod application-->
+
+
+<!doctype html>
+<html lang="en">
+
+<meta charset="utf-8">
+<title>Map</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="themes/zedlandpod.css.min.css" />
+<link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.css" />
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+<script src="map.js"></script>
+<link rel="stylesheet" type="text/css" href="map.css">
+<link rel="stylesheet" type="text/css" href="slidepics.css">
+<script src="slidepics.js"></script>
+<script src="addflat.js"></script>
+<script src="getflat.js"></script>
+    <script src="config.js"></script>
+
+
+<body>
+    
+    <div data-role="page" id="map-page" data-theme="d">
+        <div data-role="header" data-position="fixed">
+            <!-- buttons to go back to the home page or logout-->
+            <a href="index.html" data-icon="home" data-transition="slidefade" data-direction="reverse">Home</a>
+           <a href="#" data-icon="back" data-rel="back" data-direction="reverse">Back</a>
+            <h1>Locations</h1>
+        </div>
+        <div data-role="content" id="map-container">
+
+            <!--map placeholder-->
+
+            <div id="map"></div>
+            <p id="nogeolocation"></p>
+        </div>
+        <div data-role="footer" data-position="fixed" data-id="footernav">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="contactus.html">Contact us</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

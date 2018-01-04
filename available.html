@@ -1,0 +1,77 @@
+<!-- Student 13016874 acebri01 Mobile Application Development FMA-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>My profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="themes/zedlandpod.css.min.css" />
+    <link rel="stylesheet" href="themes/jquery.mobile.icons.min.css" />
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.css" />
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="map.js"></script>
+    <link rel="stylesheet" type="text/css" href="map.css">
+    <link rel="stylesheet" type="text/css" href="slidepics.css">
+    <script src="slidepics.js"></script>
+    <script src="addflat.js"></script>
+    <script src="getflat.js"></script>
+    <script src="config.js"></script>
+
+
+</head>
+
+<body>
+
+    <!--flats available-->
+    <div data-role="page" id="flat1" data-theme="d" >
+        <div data-role="header" data-position="fixed">
+            <!-- buttons to go back to the home page or logout-->
+            <a href="index.html" data-icon="home" data-transition="slidefade" data-direction="reverse">Home</a>
+            <a href="#" data-icon="back" data-rel="back" data-direction="reverse">Back</a>
+            <h1>Free Now</h1>
+        </div>
+        <div data-role="content" id="flats">
+            <div class="logo">
+                <img src="images/logo.png" style="height:15em" class="logo" alt="logo">
+            </div>
+
+            <ul data-role="listview" data-inset="true">
+                
+                    <li class="ui-li-has-thumb">
+                    <a href="zedlandblue.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r"><img src="images/flat1-5.jpeg" alt="The building">Blue House
+                        <p>From £200 per week</p>
+                    </a>
+                </li>
+                <li class="ui-li-has-thumb">
+                    <a href="zedlandred.html" class="ui-btn ui-btn-icon-right ui-icon-carat-r"><img src="images/flat2-3.jpeg" alt="The building">Red House
+                        <p>From £300 per week</p>
+                    </a>
+                </li>
+                <li class="ui-li-has-thumb">
+                    <a href="#zedladyellow" class="ui-btn ui-btn-icon-right ui-icon-carat-r"><img src="images/flat1.3.jpg" alt= "The building">Yellow House
+                        <p>From £330 per week</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div data-role="footer" data-position="fixed" data-id="footernav">
+            <div data-role="navbar">
+                <ul>
+                    <li><a href="contactus.html">Contact us</a></li>
+                    <li><a href="aboutus.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+
+   
+
+</body>
+    
+
+</html>
